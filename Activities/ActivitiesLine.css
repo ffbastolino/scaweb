@@ -1,0 +1,25 @@
+table tbody tr{
+    padding: 100px;
+    text-align:center;
+  }
+table.table-bordered>tbody>tr>td {
+    border-color: #BEBEBE;
+    vertical-align:middle;
+  }
+.table-striped>tbody>tr:nth-child(odd) {
+    background-color: #F3F3F3;
+  }
+.table-striped>tbody>tr:nth-child(even) {
+    background-color: #E3E3E3;
+  }
+tbody td {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 4px;
+    color: #6B6B6B;
+    border-collapse: separate;
+    border-spacing: 5px;
+  }
